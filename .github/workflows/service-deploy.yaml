@@ -26,7 +26,6 @@ jobs:
           #scp -i mykey.pem -o StrictHostKeyChecking=no -r ./ ubuntu@$EC2_PUBLIC_IP:~/app
           rsync -avz -e "ssh -i mykey.pem -o StrictHostKeyChecking=no" ./ ubuntu@$EC2_PUBLIC_IP:~/app
 
-          
           # Connect to your EC2 instance and execute the `deploy.sh` script (this script is part of the repo files). 
           # You need to implement the `deploy.sh` script yourself.
           #
