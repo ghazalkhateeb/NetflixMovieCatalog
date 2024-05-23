@@ -23,7 +23,6 @@ stop_server
 
 # Start app.py
 python3 app.py &
-exit
 
 
 
