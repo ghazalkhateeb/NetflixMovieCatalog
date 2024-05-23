@@ -11,6 +11,7 @@ if pgrep -x "python3" > /dev/null; then
     kill "$app_pid"
 fi
 
+
 # Start app.py
 python3 app.py &
 
