@@ -22,7 +22,8 @@ stop_server
 
 
 # Start app.py
-nohup python3 app.py &
+#nohup python3 app.py &
+nohup python3 app.py> app.log 2>&1 &
 
 
 
